@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url(./background-site.jpg);
+}
+
+a{
+    text-emphasis: none;
+    text-decoration: none;
+    color: red;
+    font-size: large;
+    padding: 0 5px 0 5px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+a:hover{
+    color: white;
+    background-color: black;
+    width: 20px;
+    height: 10px;
+
+    transition: 0.5s;
+}
+
+.intro{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px 0 10px 0;
+    margin-bottom: 30px;
+}
+
+.intro h2 h3{
+    margin-bottom: 5px;
+}
+
+.intro h1{
+    margin: 20px 0 20px 0 ;
+}
+
+.intro h1:hover{
+    color: green;
+}
+
+.intro p{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50em
+}
+
+#zen-supporting{
+    width: 80%;
+    float: right;
+    background: rgba(000, 000, 050, 0.2);
+    padding: 5px;
+}
+
+#zen-supporting footer{
+    padding-top: 20px;
+    margin: 10px 0 10px 0;
+    text-align: center;
+    justify-content: center;
+    background-color: black;
+    height: 50px;
+}
+
+#zen-supporting footer:hover{
+    background-image: linear-gradient(to right, purple, darkblue, black);
+
+    transition: 2s;
+}
+
+#zen-supporting footer a{
+    background-color: black;
+    color: white;
+}
+
+#zen-supporting footer a:hover{
+    background-color: white;
+    color: black;
+
+    transition: 1s;
+}
+
+.sidebar{
+    height: 100%;
+    width: 18%;
+    padding: 0 0 0 5px;
+}
+
+.sidebar h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 20px 0;
+}
+
+.sidebar a{
+    background: none;
+    color: black;
+    font-family: monospace;
+    font-size: medium;
+}
+
+.sidebar a:hover{
+    font-size: large;
+    color: blue;
+
+    transition: 1s;
+}
